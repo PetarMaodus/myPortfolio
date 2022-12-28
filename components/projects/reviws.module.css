@@ -1,0 +1,48 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+    .review img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-right: 20px;
+    }
+
+.name {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.age {
+    margin-right: 20px;
+}
+
+.location {
+    margin-right: 20px;
+}
+
+.text {
+    flex: 1;
+}
+
+.generatebutton {
+    width: 150px;
+    height: 40px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

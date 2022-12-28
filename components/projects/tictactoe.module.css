@@ -1,0 +1,41 @@
+.board {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-end;
+    
+    text-align:center;
+}
+.boardrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+.squere {
+    height: 90px;
+    width: 90px;
+    background-color: black;
+    font-size: 1em;
+    text-shadow: 1px 0.6px 3px #fffffff7;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    color:ghostwhite;
+}
+.Status {
+    text-shadow: 1px 0.6px 3px #fffffff7;
+    font-size:1.3em;
+     
+}
+.Restart {
+    width: 150px;
+    height: 40px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

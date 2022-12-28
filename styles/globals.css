@@ -1,26 +1,74 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    color: ghostwhite;
+    background: url(../public/ivan-guerrero-dR7L9hHWvAI-unsplash.jpg) no-repeat center;
+    background-size: cover;
 }
-
 a {
   color: inherit;
   text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+@media (min-width: 601px) and (max-width: 900px) {
+    body {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
 }
+
+@media (min-width: 901px) {
+    body {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+    h2 {
+        font-size: 3em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+}
+
+/*#050c14
+     background: #050c14;
+    background: url(../public/ivan-guerrero-dR7L9hHWvAI-unsplash.jpg) no-repeat center;
+     background-size: cover;
+*/

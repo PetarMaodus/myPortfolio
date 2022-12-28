@@ -1,0 +1,24 @@
+.footer {
+    height: auto;
+    width: 100%;
+    background: #88f08173;
+    box-shadow: -3px -3px 3px #a6a5ff4c;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    align-content: stretch;
+    align-items: center;
+    padding: 0 20px 0 30px;
+    text-shadow: 1px 0.1px #ffffff7f;
+}
+    .footer div {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-between;
+    }

@@ -1,0 +1,30 @@
+.field {
+    height: 90vh;
+    width: 96%;
+    box-shadow: 6px 0px 41px 21px rgba(255,255,255,1);
+    margin: 0 2% 10% 2%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.named {
+    
+    background: #9993CF;
+    background: linear-gradient(to right, #9993CF 6%, #D9FFB8 50%, #CF7483 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+    
+}
+    .named h1 {
+        /*font-size: 5vmin;*/
+    }
+    .named p {
+        /*font-size: 2vw;*/ 
+        margin: 0.5em;
+    }

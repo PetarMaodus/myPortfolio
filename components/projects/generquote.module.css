@@ -1,0 +1,26 @@
+.Quotegener {
+    text-align: center;
+    height: auto;
+    width:100%;
+    font-style: italic;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.3em;
+    box-shadow: 6px 0px 41px 21px #ffffff72;
+    border-radius: 5%;
+    padding: 2em;
+
+}
+.butons button {
+background-color:white;
+color:black;
+height:50px;
+padding:5px;
+border-radius:15%;
+
+}
+.butons {
+padding-top:20px;
+}
