@@ -18,7 +18,7 @@ function Projects() {
             <Reviews /></div>
             <div>
                 <h3>Check the full list on my github page! : </h3>
-                <a href="https://github.com/PetarMaodus" target="_blank"><IconGhub /></a>
+                <a href="https://github.com/PetarMaodus" target="_blank" rel="noreferrer"><IconGhub /></a>
             </div>
             
             <Image src="/10764053_2130.png" alt="Astronaut waving" width={300} height={300} className={Styles.image} />
