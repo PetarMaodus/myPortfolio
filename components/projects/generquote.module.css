@@ -1,25 +1,26 @@
 .Quotegener {
     text-align: center;
     height: auto;
-    width:100%;
+    width: 100%;
+    padding: 20px 15vw;
     font-style: italic;
     display: flex;
-    
     flex-direction: column;
     justify-content: space-between;
     font-size: 1.3em;
-    box-shadow: 6px 0px 41px 21px #ffffff72;
-    border-radius: 5%;
-    padding: 2em;
-
+    background-color: var(--color4);
+    color: white;
+    text-shadow: 2px 2px var(--color1),inherit -0.1px -0.1px white;
 }
 .butons button {
-background-color:white;
-color:black;
-height:50px;
-padding:5px;
-border-radius:15%;
-
+    width: 150px;
+    height: 40px;
+    background-color: var(--color5);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
 }
 .butons {
 padding-top:20px;

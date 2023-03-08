@@ -21,19 +21,19 @@
     width: 90px;
     background-color: black;
     font-size: 1em;
-    text-shadow: 1px 0.6px 3px #fffffff7;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    color:ghostwhite;
+    text-shadow: 1px 0.6px 3px var(--color5);
+    box-shadow: 0 0 10px var(--color5);
+    color: white;
 }
 .Status {
-    text-shadow: 1px 0.6px 3px #fffffff7;
-    font-size:1.3em;
-     
+    text-shadow: 1px 0.6px 3px var(--color5);
+    font-size: 1.3em;
+    color: white;
 }
 .Restart {
     width: 150px;
     height: 40px;
-    background-color: #4caf50;
+    background-color: var(--color5);
     color: white;
     border: none;
     border-radius: 5px;

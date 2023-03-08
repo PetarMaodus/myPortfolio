@@ -8,14 +8,19 @@ function Projects() {
     return (
         <div className={Styles.field}>
             <h2>My Projects:</h2>
-            <h3>1. Random quote generator</h3>
-            <Quotegener />
-            <h3>2. Tic Tac Toe</h3>
-            <Board />
-            <h3>3. Reviews</h3>
-            <Reviews />
-            <p>Check the full list on my github page! : </p>
-            <IconGhub />
+            <div> <h3>1. Random quote generator</h3>
+            <Quotegener /></div>
+           
+            <div><h3>2. Tic Tac Toe</h3>
+            <Board /></div>
+            
+            <div><h3>3. Reviews</h3>
+            <Reviews /></div>
+            <div>
+                <h3>Check the full list on my github page! : </h3>
+                <a href="https://github.com/PetarMaodus" target="_blank"><IconGhub /></a>
+            </div>
+            
             <Image src="/10764053_2130.png" alt="Astronaut waving" width={300} height={300} className={Styles.image} />
 
         </div>

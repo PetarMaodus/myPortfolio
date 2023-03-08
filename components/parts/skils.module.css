@@ -1,7 +1,8 @@
 .field {
-    
+    background-color: var(--color3);
     width: 100%;
-    margin: 30% 0;
+    padding: 10vh 15vw;
+    margin: 100px auto;
     display: inline-flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -10,10 +11,9 @@
     align-content: center;
 }
     .field h2 {
-    /*font-size:2.4em;*/
-    margin:5% 5% 20% 5%;
-    
-    
+        color: white;
+        margin: 5% 5% 20% 5%;
+        text-shadow: 3px 3px var(--color1);
     }
     .field > div {
         width: 100%;
@@ -23,13 +23,16 @@
         justify-content: space-around;
         align-items: center;
         align-content: space-around;
+        background-color:var(--color2);
+        margin-bottom:15px;
         
     }
 
         .field > div > h3 {
-            /*font-size:2em;*/
+            color:white;
+            text-shadow: 1px 1px var(--color5);
         }
 
     .field div:hover {
-        transform: scale(1.01);
+         
     }

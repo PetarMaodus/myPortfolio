@@ -5,9 +5,9 @@ function Footer() {
     return (
         <div className={ Styles.footer } >
             <div>
-                <p><span>made by</span> Petar Maodus</p>
-                <IconGhub />
-                <IconLinkIn />
+                <h3>Dear stranger</h3>
+                <p> - Thanks for visiting my site!</p>
+                <p>Best regards.</p>
             </div>
             <div>
                 <h4>Credits:</h4>

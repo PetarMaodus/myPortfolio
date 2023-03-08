@@ -1,9 +1,15 @@
+:root {
+    --color1: #000000;
+    --color2: #150050;
+    --color3: #3F0071;
+    --color4: #610094;
+    --color5: #339400;
+}
 html,
 body {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    color: ghostwhite;
-    background: url(../public/ivan-guerrero-dR7L9hHWvAI-unsplash.jpg) no-repeat center;
-    background-size: cover;
+    background-color: var(--color2);
+  
 }
 a {
   color: inherit;
@@ -67,8 +73,3 @@ a {
     }
 }
 
-/*#050c14
-     background: #050c14;
-    background: url(../public/ivan-guerrero-dR7L9hHWvAI-unsplash.jpg) no-repeat center;
-     background-size: cover;
-*/

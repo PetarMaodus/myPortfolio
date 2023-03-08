@@ -1,24 +1,52 @@
 .nav {
-    /*position:fixed*/
-    top: 0;
-    height: 5vh;
+    
+    position: absolute;
+    top: calc(100vh + 100px);
+    height: 300px;
     width: 100%;
-    background: #7c4b8673;
+    background: var(--color3);
     box-shadow: 3px 3px 3px #a6a5ff1f;
     backdrop-filter: blur(3px);
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    align-items: center;
-    align-content: space-between;
-    padding: 0 20px 0 30px;
-    text-shadow: 1px 0.1px #ffffff7f;
+    align-items: normal;
+    align-content: normal;
 }
-/* filter: blur(4px);
-     box-shadow: 3px 3px 3px #a6a5ff4c;
-
-*/
-    .nav a {
-    margin-right:5px;
+    .nav > a {
+        display: flex;
+        flex-grow: 1;
+        flex-shrink: 0;
+        flex-basis: auto;
+        align-self: stretch;
+        order: 0;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        border: 1px dashed var(--color4);
+        
+        transition: background-color 0.3s ease-in-out;
     }
+    .nav > a:first-child {
+        
+        border-right:none;
+        
+    }
+        .nav > a:first-child:hover + a {
+            border-left: none;
+        }
+
+        .nav > a:hover {
+            background-color: var(--color1);
+            border: 1px dashed var(--color5);
+        }
+        .nav > a:hover > svg {
+            filter: drop-shadow(0px 5px 24px var(--color5));
+        }
+
+        .nav > a > svg {
+            filter: drop-shadow(5px 5px 5px var(--color1));
+        }
+
+        /* ADD POPPUP BUBBLE BUTONS EVERYWHERE  on hover !!!!!!!!!!!!!!  !!!!!! */

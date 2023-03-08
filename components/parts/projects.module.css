@@ -1,15 +1,31 @@
+
 .field {
+    background-color: var(--color3);
+    margin: 50px 0 100px 0;
     width: 100%;
-    margin: 30% 0;
+    padding: 30px 15vw;
     display: inline-flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    box-sizing: border-box;
 }
-.field h2,.field h3 , .field p {
-    
-    margin: 30px 0;
-   
-}
+    .field h2, .field > div > h3, .field > div > p {
+        margin: 15px 0;
+        color:white;
+        text-align:center;
+    }
+    .field > div {
+        background-color: var(--color4);
+        width: 100%;
+        margin-bottom: 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: normal;
+        padding-bottom:15px;
+    }
